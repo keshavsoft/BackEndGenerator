@@ -245,3 +245,9 @@ All notable changes to this extension are documented here.
 ## [1.36.7]
 
 * delete where still working on , not tested
+
+## [1.37.2]
+
+https://github.com/keshavsoft/EndPointGen
+
+* need to publish now
