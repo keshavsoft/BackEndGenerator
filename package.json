@@ -1,9 +1,9 @@
 {
   "name": "EndPointGen",
   "displayName": "EndPointGen",
-  "publisher": "KeshavSoft",
+  "publisher": "keshavsoft",
   "description": "KeshavSoft AI with voice capture",
-  "version": "1.37.3",
+  "version": "1.37.4",
   "type": "module",
   "capabilities": {
     "untrustedWorkspaces": {
