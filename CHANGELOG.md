@@ -251,3 +251,8 @@ All notable changes to this extension are documented here.
 https://github.com/keshavsoft/EndPointGen
 
 * need to publish now
+
+## [1.37.5]
+
+* publisher small and git ignore changed and published open vs also
+
