@@ -221,6 +221,6 @@
   },
   "dependencies": {
     "@babel/parser": "^7.29.2",
-    "@keshavsoft/kschema-cli": "^1.12.14"
+    "@keshavsoft/kschema-cli": "^1.13.2"
   }
 }
