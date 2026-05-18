@@ -7,6 +7,8 @@ import { filterCommand } from '../../CommonCommands/ForEndPointsJsFile/Filter/st
 import { findColumnsCommand } from '../../CommonCommands/ForEndPointsJsFile/FindColumns/start.js';
 import { filterColumnsCommand } from '../../CommonCommands/ForEndPointsJsFile/FilterColumns/start.js';
 
+import distinctCommand from '../../CommonCommands/ForEndPointsJsFile/ForGetMethod/V1/Distinct/V1/orchestration/startOrchestration.js';
+
 export async function getRegisterCommend(context, uri) {
     uri = uri || vscode.window.activeTextEditor?.document?.uri;
 
@@ -49,6 +51,11 @@ async function handleStrategy({ strategy, context, uri }) {
         case "FilterColumns": {
 
             return filterColumnsCommand(context, uri);
+        };
+
+        case "DistinctColumns": {
+
+            return distinctCommand(context, uri);
         };
 
         default:

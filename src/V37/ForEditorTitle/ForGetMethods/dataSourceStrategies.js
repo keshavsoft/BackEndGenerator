@@ -19,5 +19,9 @@ export const DATA_SOURCE_STRATEGIES = [
     {
         id: "FilterColumns",
         label: "FilterColumns : get all matched records from table searching columns"
+    },
+    {
+        id: "DistinctColumns",
+        label: "DistinctColumns : get all distinct values of a column from table"
     }
 ];
